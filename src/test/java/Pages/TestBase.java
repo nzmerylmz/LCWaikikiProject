@@ -24,7 +24,6 @@ public class TestBase {
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
         System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
-        //System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
