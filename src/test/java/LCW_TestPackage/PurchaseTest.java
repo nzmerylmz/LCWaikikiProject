@@ -1,4 +1,4 @@
-package Pages;
+package LCW_TestPackage;
 
 import org.testng.annotations.Test;
 

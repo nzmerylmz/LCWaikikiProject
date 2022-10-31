@@ -1,4 +1,4 @@
-package Pages;
+package LCW_TestPackage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
