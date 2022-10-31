@@ -10,7 +10,7 @@ public class LCWakikiSteps extends TestBase {
     public LCWakikiSteps(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
-    @FindBy(css = ".full-width-slider__image")
+    @FindBy(css = "#_sorun_icon_img")
     private WebElement verifyWebsite;
 
     public void verifyWebsite(){
